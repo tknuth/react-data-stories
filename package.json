@@ -1,0 +1,41 @@
+{
+  "name": "react-data-stories",
+  "version": "1.0.0",
+  "private": true,
+  "description": "react-data-stories",
+  "author": "Tobias Knuth",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/inter": "^5.0.13",
+    "@mui/joy": "^5.0.0-beta.11",
+    "gatsby": "^5.12.4",
+    "gatsby-plugin-emotion": "^8.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.5.0",
+    "@storybook/addon-interactions": "^7.5.0",
+    "@storybook/addon-links": "^7.5.0",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.5.0",
+    "@storybook/react": "^7.5.0",
+    "@storybook/react-vite": "^7.5.0",
+    "@storybook/testing-library": "^0.2.2",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.5.0"
+  }
+}
