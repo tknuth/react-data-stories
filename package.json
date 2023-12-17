@@ -26,7 +26,9 @@
     "gatsby": "^5.12.4",
     "gatsby-plugin-emotion": "^8.12.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-vega": "^7.6.0",
+    "vega-embed": "^6.23.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.0",
